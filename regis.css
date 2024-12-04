@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Color de fondo suave */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 100px auto; /* Centrar verticalmente */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Color azul para el título */
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border-color: #007bff; /* Cambio de color al enfocar */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Color azul del botón */
+    color: white; /* Texto blanco en el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el fondo del botón */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff; /* Color azul para los enlaces */
+}
+
+.error {
+    color: red; /* Color rojo para mensajes de error */
+    text-align: center;
+}

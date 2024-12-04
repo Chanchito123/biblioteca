@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(111, 37%, 96%);
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+header {
+    background: #09428c;
+    color: #113996(122, 31, 31);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de profundidad */
+}
+
+nav {
+    margin: 20px auto; /* Centrar el menú de navegación */
+    max-width: 800px; /* Limitar el ancho del menú */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00(40, 134, 165); /* Cambiar el color del enlace a blanco para mejor contraste */
+    transition: color 0.3s; /* Transición suave para el color del enlace */
+}
+
+nav ul li a:hover {
+    color: #0dc3bd; /* Color amarillo al pasar el mouse */
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px; /* Espaciado superior para títulos */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: calc(100% - 22px); /* Ajustar el ancho con padding */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde sutil */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border-color: #007bff; /* Cambiar color del borde al enfocar */
+}
+
+button {
+    padding: 10px 15px; /* Aumentar el padding horizontal */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el fondo del botón */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #1b7daa;
+}
+
+th, td {
+    padding: 12px; /* Aumentar padding en celdas */
+}
+
+th {
+    background-color: #53af8a; /* Color de fondo para encabezados de tabla */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+#contacto {
+    margin-top: 20px;
+}
+
+#contacto h3 {
+    color: #333;
+}
+
+#contacto ul {
+    list-style-type: none; /* Eliminar viñetas */
+}
+
+#contacto ul li {
+    margin: 5px 0; /* Espaciado entre elementos */
+}
+
+#contacto ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007BFF; /* Color del enlace */
+}
+
+#contacto ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
